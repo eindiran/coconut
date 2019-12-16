@@ -253,7 +253,7 @@ def comp_35(args=[], **kwargs):
 
 
 def comp_36(args=[], **kwargs):
-    """Compiles target_35."""
+    """Compiles target_36."""
     comp(path="cocotest", folder="target_36", args=["--target", "36"] + args, **kwargs)
 
 
