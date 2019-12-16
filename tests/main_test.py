@@ -252,9 +252,19 @@ def comp_35(args=[], **kwargs):
     comp(path="cocotest", folder="target_35", args=["--target", "35"] + args, **kwargs)
 
 
+def comp_notypdefwrap_35(args=[], **kwargs):
+    """Compiles target_35 with the --no-typedef-wrap flag."""
+    comp(path="cocotest", folder="target_35", args=["--target", "35", "--no-typedef-wrap"] + args, **kwargs)
+
+
 def comp_36(args=[], **kwargs):
     """Compiles target_36."""
     comp(path="cocotest", folder="target_36", args=["--target", "36"] + args, **kwargs)
+
+
+def comp_notypdefwrap_36(args=[], **kwargs):
+    """Compiles target_36 with the --no-typedef-wrap flag."""
+    comp(path="cocotest", folder="target_36", args=["--target", "36", "--no-typedef-wrap"] + args, **kwargs)
 
 
 def comp_sys(args=[], **kwargs):
